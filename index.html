@@ -2,30 +2,27 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
+    <title>Used Cars Online</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body class="bg-dark">
+<body class="bg-light">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #010508;">
-            <a class="navbar-brand" href="#">The Garage</a>
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+        <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #023862;">
+            <a class="navbar-brand" href="/garage.html">The Garage</a>
+            <button class="navbar-toggler d-lg-none bg-light" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                 aria-label="Toggle navigation"></button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/Assignment1/garage.html">Your Garage</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/Assignment1/contactus.html">Contact Us</a>
@@ -39,9 +36,10 @@
                     <input class="form-control mr-sm-2" type="text" placeholder="Search">
                     <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
-
             </div>
         </nav>
+    </header>
+    <section>
         <div class="jumbotron jumbotron-fluid"
             style="background-image: url('carbackground.jpg'); background-size: cover;height: 100vh;">
             <div class="container text-white"
@@ -50,60 +48,78 @@
                 <p class="lead text-center">Find your next ride from the very wide selection of used cars.</p>
             </div>
         </div>
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="card-deck">
-                        <div class="card col-md-4"">
-                            <img class=" card-img-top img-fluid my-3" style="object-fit: cover;" src="car1.jpg"
-                            alt="BMW 4 Series - 420d">
+        <div class="container">
+            <div class="row">
+                <div class="card-deck">
+                    <div class="card col-md-4"">
+                        <img class=" card-img-top img-fluid my-3" style="height:200px; object-fit: cover;"
+                        src="car1.jpg" alt="BMW 4 Series - 420d">
+                        <div class="card-body">
+                            <h5 class="card-title">BMW 4 Series - 420d</h5>
+                            <p>BMW 4 Series - 420d, in excellent condition, 2018 model, 2.0L, Automatic, 4 Doors,
+                                32000km</p>
+                            <ul>
+                                <li>420d</li>
+                                <li>2018</li>
+                                <li>2.0L</li>
+                                <li>Automatic</li>
+                                <li>4 Doors</li>
+                                <li>32000km</li>
+                                <li>Blue</li>
+                                <li>$40,000</li>
+                                <li>Sedan, Sport</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-primary">Add to Garage</button>
+                        </div>
+                    </div>
+                    <div class="card col-md-4 d-flex flex-column">
+                        <img class=" card-img-top img-fluid my-3" style="height:200px; object-fit: cover;"
+                            src="car2.jpg" alt="volks wagen beetle">
+                        <div class="card-body">
+                            <h5 class="card-title">VW Beetle</h5>
+                            <p>Volks Wagen Beetle 1975 model, a piece of history in excellent conditions</p>
+                            <ul>
+                                <li>1975</li>
+                                <li>1.6L</li>
+                                <li>Manual</li>
+                                <li>2 Doors</li>
+                                <li>Orange</li>
+                                <li>$10,000</li>
+                                <li>Bug, CLassic</li>
+                            </ul>
+
+                        </div>
+                        <div class="card-footer mt-auto">
+                            <button type="button" class="btn btn-primary">Add to Garage</button>
+                        </div>
+                    </div>
+                    <div class="card col-md-4">
+                        <img class="card-img-top img-fluid my-3" style="height:200px; object-fit: cover;" src="car4.jpg"
+                            alt="Opel Corsa">
+                        <div class="card-body">
+                            <h5 class="card-title">Opel Corsa</h5>
                             <div class="card-body">
-                                <h5 class="card-title">BMW 4 Series - 420d</h5>
-                                <p>BMW 4 Series - 420d, in excellent condition, 2018 model, 2.0L, Automatic, 4 Doors,
-                                    32000km
+                                <p>Opel Corsa 2015 model, in excellent condition, 1.4L, Manual, 4 Doors, 45000km</p>
                                 <ul>
-                                    <li>420d</li>
-                                    <li>2018</li>
-                                    <li>2.0L</li>
-                                    <li>Automatic</li>
+                                    <li>2015</li>
+                                    <li>1.4L</li>
+                                    <li>Manual</li>
                                     <li>4 Doors</li>
-                                    <li>32000km</li>
-                                    <li>Blue</li>
-                                    <li>$40,000</li>
-                                    <li>Sedan, Sport</li>
+                                    <li>45000km</li>
+                                    <li>White</li>
+                                    <li>$15,000</li>
+                                    <li>Hatchback</li>
                                 </ul>
-                                </p>
-                                <button type="button" class="btn btn-primary">Buy Now</button>
                             </div>
+
                         </div>
-                        <div class="card col-md-4">
-                            <img class=" card-img-top img-fluid my-3" style="object-fit: cover;" src="car2.jpg"
-                                alt="volks wagen beetle">
-                            <div class="card-body">
-                                <h5 class="card-title">VW Beetle</h5>
-                                <div class="card-body">
-                                    <p>Volks Wagen Beetle 1975 model, a piece of history in excellent conditions</p>
-                                    <ul>
-                                        <li>1975</li>
-                                        <li>1.6L</li>
-                                        <li>Manual</li>
-                                        <li>2 Doors</li>
-                                        <li>Orange</li>
-                                        <li>$10,000</li>
-                                        <li>Bug, CLassic</li>
-                                </div>
-                            </div>
+                        <div class="card-footer mt-auto">
+                            <button type="button" class="btn btn-primary">Add to Garage</button>
                         </div>
-                        <div class="card col-md-4">
-                            <img class="card-img-top img-fluid my-3" style="object-fit: cover;" src="car4.jpg"
-                                alt="Opel Corsa">
-                            <div class="card-body">
-                                <h5 class="card-title">Opel Corsa</h5>
-                            </div>
-        </section>
-    </header>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                    </div>
+    </section>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -113,6 +129,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <footer>
+        <section>
+
+            <div class="container text-center my-5">
+                <p>&copy; 2024 The Garage. All Rights Reserved.</p>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>
