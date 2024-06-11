@@ -11,7 +11,37 @@
 </head>
 
 <body>
-
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #023862;">
+            <a class="navbar-brand" href="./index.html">The Garage</a>
+            <button class="navbar-toggler d-lg-none bg-light" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation"></button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./garage.html">Your Garage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./thelot.html">The Lot</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contactus.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./aboutus.html">About Us</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
     <div class="container">
         <h2>Checkout</h2>
         <form>
@@ -38,6 +68,14 @@
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
+    <footer class="footer fixed-bottom">
+        <section>
+
+            <div class="container text-center my-5">
+                <p>&copy; 2024 The Garage. All Rights Reserved.</p>
+            </div>
+        </section>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
